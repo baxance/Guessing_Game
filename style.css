@@ -1,0 +1,18 @@
+body {
+  background-color: darkolivegreen;
+}
+
+header {
+  background-color: goldenrod;
+  border-bottom: double 20px red;
+}
+
+p {
+  background-color:goldenrod;
+  border: double 5px red;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}

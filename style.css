@@ -1,10 +1,22 @@
 body {
-  background-color: darkolivegreen;
+  /* background-color: darkolivegreen; */
+  background-image: url(https://i.ytimg.com/vi/w-VxyEjPlRU/maxresdefault.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
   background-color: goldenrod;
   border-bottom: double 20px red;
+}
+
+h3 {
+  background-color: gray;
+  width: fit-content;
+  padding: 10px;
+  border: double blue 5px;
 }
 
 p {
@@ -15,4 +27,18 @@ p {
 img {
   height: 300px;
   width: 300px;
+}
+
+ol {
+  color:white;
+}
+
+ul, ol {
+  list-style:georgian inside;
+  background-color: gray;
+  color: black;
+  padding: 5px;
+  width:max-content;
+  margin: 10px;
+  border: double blue 5px;
 }

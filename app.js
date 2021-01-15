@@ -92,21 +92,24 @@ let cat = prompt('Yes or No: Cats are better than Dogs').toUpperCase();
 
 question4();
 
+function question5(){
+let hoc = prompt('Yes or No: The Seattle hockey team should have been the Sockeyes').toUpperCase();
+  if (hoc === 'YES'){
+    // console.log('Glad we\'re in agreement. Kraken is a ridiculously stupid name.')
+    alert('Glad we\'re in agreement. Kraken is a ridiculously stupid name.')
+    knowledge++
+  }
+  else if (hoc === 'NO'){
+    // console.log('You mean Yes, right?')
+    alert('You mean Yes, right?')
+  }
+  else if ((hoc !== 'YES') && (hoc !== 'NO')){
+    // console.log('I assume you don\'t like hockey. That\'s fine.')
+    alert('I assume you don\'t like hockey. That\'s fine.')
+  }
+}
 
-// let hoc = prompt('Yes or No: The Seattle hockey team should have been the Sockeyes').toUpperCase();
-//   if (hoc === 'YES'){
-//     // console.log('Glad we\'re in agreement. Kraken is a ridiculously stupid name.')
-//     alert('Glad we\'re in agreement. Kraken is a ridiculously stupid name.')
-//     knowledge++
-//   }
-//   else if (hoc === 'NO'){
-//     // console.log('You mean Yes, right?')
-//     alert('You mean Yes, right?')
-//   }
-//   else if ((hoc !== 'YES') && (hoc !== 'NO')){
-//     // console.log('I assume you don\'t like hockey. That\'s fine.')
-//     alert('I assume you don\'t like hockey. That\'s fine.')
-//   }
+question5();
 
 // let i = 0
 // let cohort = 107

@@ -32,20 +32,25 @@ let myName = prompt('Yes or no: Is my first name Barrett?').toUpperCase();
 
 question1();
 
-// let home = prompt('Yes or no: Am I from California?').toUpperCase();
-//   if (home === 'NO'){
-//     // console.log('That\'s right, I\'m Kamaʻāina')
-//     alert('That\'s right, I\'m Kamaʻāina')
-//     knowledge++ // +1
-//   }
-//   else if (home === 'YES'){
-//     // console.log('Come on now. Hawai\'i boy through and through.')
-//     alert('Come on now. Hawai\'i boy through and through.')
-//   }
-//   else if ((home !== 'YES') && (home !== 'NO')){
-//     // console.log('It\'s a Yes or No question. Anyway, moving on...')
-//     alert('It\'s a Yes or No question. Anyway, moving on...')
-//   }
+
+function question2(){
+let home = prompt('Yes or no: Am I from California?').toUpperCase();
+  if (home === 'NO'){
+    // console.log('That\'s right, I\'m Kamaʻāina')
+    alert('That\'s right, I\'m Kamaʻāina')
+    knowledge++ // +1
+  }
+  else if (home === 'YES'){
+    // console.log('Come on now. Hawai\'i boy through and through.')
+    alert('Come on now. Hawai\'i boy through and through.')
+  }
+  else if ((home !== 'YES') && (home !== 'NO')){
+    // console.log('It\'s a Yes or No question. Anyway, moving on...')
+    alert('It\'s a Yes or No question. Anyway, moving on...')
+  }
+}
+
+question2();
 
 // let gojira = prompt('Yes or No: Biollante is the coolest Godzilla villain.').toUpperCase();
 //   if (gojira === 'YES'){

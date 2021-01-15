@@ -132,29 +132,36 @@ let guess = prompt('In what year BC did Gaius Marius reform the Roman military i
 
 guessingGame();
 
-// var tryMush = 0
-// let arrayOfMush = [
-//   'SHIITAKE',
-//   'CHANTERELLE',
-//   'MAITAKE',
-//   'OYSTER',
-//   'ENOKI' 
-//   ]
-// for (let i = 0; i < 6; i++){
-//   let guessMush = prompt('What is one of my favorite kinds of mushrooms?').toUpperCase()
-//   tryMush++;
-//   for (let j = 0; j < arrayOfMush.length; j++){
-//     if (guessMush === arrayOfMush[j]){
-//       alert('That\'s right!')
-//       knowledge++
-//       i=10;
-//       break;
-//     }
-//   }
-// }
 
-// alert('It took you ' + tryMush + ' tries. Some of my favorite mushrooms are:')
+function guessMush(){
+var tryMush = 0
+let arrayOfMush = [
+  'SHIITAKE',
+  'CHANTERELLE',
+  'MAITAKE',
+  'OYSTER',
+  'ENOKI' 
+  ]
+for (let i = 0; i < 6; i++){
+  let guessMush = prompt('What is one of my favorite kinds of mushrooms?').toUpperCase()
+  tryMush++;
+  for (let j = 0; j < arrayOfMush.length; j++){
+    if (guessMush === arrayOfMush[j]){
+      alert('That\'s right!')
+      knowledge++
+      i=10;
+      break;
+    }
+  }
+}
 
-// alert(arrayOfMush)
 
-// alert('You got ' + knowledge + ' right out of 7')
+
+alert('It took you ' + tryMush + ' tries. Some of my favorite mushrooms are:')
+
+alert(arrayOfMush)
+}
+
+guessMush();
+
+alert('You got ' + knowledge + ' right out of 7')

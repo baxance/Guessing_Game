@@ -72,20 +72,26 @@ let gojira = prompt('Yes or No: Biollante is the coolest Godzilla villain.').toU
 
 question3();
 
-// let cat = prompt('Yes or No: Cats are better than Dogs').toUpperCase();
-//   if (cat === 'YES'){
-//     // console.log('/"How can one choose!/" say some. As easily as you did, says I')
-//     alert('"How can one choose!" say some. As easily as you did, says I')
-//     knowledge++
-//   }
-//   else if(cat === 'NO'){
-//     // console.log('meh. dogs are alright too I guess')
-//     alert('meh. dogs are alright too I guess')
-//   }
-//   else if((cat !== 'YES') && (cat !== 'NO')){
-//     // console.log('Indecision is acceptable in this case.')
-//     alert('Indecision is acceptable in this case.')
-//   }
+
+function question4(){
+let cat = prompt('Yes or No: Cats are better than Dogs').toUpperCase();
+  if (cat === 'YES'){
+    // console.log('/"How can one choose!/" say some. As easily as you did, says I')
+    alert('"How can one choose!" say some. As easily as you did, says I')
+    knowledge++
+  }
+  else if(cat === 'NO'){
+    // console.log('meh. dogs are alright too I guess')
+    alert('meh. dogs are alright too I guess')
+  }
+  else if((cat !== 'YES') && (cat !== 'NO')){
+    // console.log('Indecision is acceptable in this case.')
+    alert('Indecision is acceptable in this case.')
+  }
+}
+
+question4();
+
 
 // let hoc = prompt('Yes or No: The Seattle hockey team should have been the Sockeyes').toUpperCase();
 //   if (hoc === 'YES'){

@@ -52,20 +52,25 @@ let home = prompt('Yes or no: Am I from California?').toUpperCase();
 
 question2();
 
-// let gojira = prompt('Yes or No: Biollante is the coolest Godzilla villain.').toUpperCase();
-//   if (gojira === 'YES'){
-//     // console.log('You have good taste. I bet a patrician of your caliber dislikes the American Godzillas too')
-//     alert('You have good taste. I bet a patrician of your caliber dislikes the American Godzillas too')
-//     knowledge++ 
-//   } 
-//   else if (gojira === 'NO'){
-//     // console.log('I bet you prefer Showa era Godzilla. That\'s a good pick too, no worries.')
-//     alert('I bet you prefer Showa era Godzilla. That\'s a good pick too, no worries.')
-//   }
-//   else if ((gojira !== 'YES') && (gojira !== 'NO')){
-//     // console.log('Are you deliberately not using a yes or no answer?')
-//     alert('Are you deliberately not using a yes or no answer?')
-//   }
+
+function question3(){
+let gojira = prompt('Yes or No: Biollante is the coolest Godzilla villain.').toUpperCase();
+  if (gojira === 'YES'){
+    // console.log('You have good taste. I bet a patrician of your caliber dislikes the American Godzillas too')
+    alert('You have good taste. I bet a patrician of your caliber dislikes the American Godzillas too')
+    knowledge++ 
+  } 
+  else if (gojira === 'NO'){
+    // console.log('I bet you prefer Showa era Godzilla. That\'s a good pick too, no worries.')
+    alert('I bet you prefer Showa era Godzilla. That\'s a good pick too, no worries.')
+  }
+  else if ((gojira !== 'YES') && (gojira !== 'NO')){
+    // console.log('Are you deliberately not using a yes or no answer?')
+    alert('Are you deliberately not using a yes or no answer?')
+  }
+}
+
+question3();
 
 // let cat = prompt('Yes or No: Cats are better than Dogs').toUpperCase();
 //   if (cat === 'YES'){

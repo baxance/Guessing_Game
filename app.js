@@ -12,20 +12,25 @@ let userName = prompt('What\'s your name?');
 
 greeting();
 
-// let myName = prompt('Yes or no: Is my first name Barrett?').toUpperCase();
-//   if (myName === 'YES'){
-//     // console.log('That\'s correct. Are you a wizard?');
-//     alert('That\'s correct. Are you a wizard?')
-//     knowledge++ // +1 
-//   }
-//   else if (myName === 'NO'){
-//     // console.log('How did you get this wrong?')
-//     alert('How did you get this wrong?')
-//   }
-//   else if ((myName !== 'YES') && (myName !== 'NO')){
-//     // console.log('It\'s a Yes or No question. Anyway, moving on...')
-//     alert('It\'s a Yes or No question. Anyway, moving on...')
-//   }
+
+function question1(){
+let myName = prompt('Yes or no: Is my first name Barrett?').toUpperCase();
+  if (myName === 'YES'){
+    // console.log('That\'s correct. Are you a wizard?');
+    alert('That\'s correct. Are you a wizard?')
+    knowledge++ // +1 
+  }
+  else if (myName === 'NO'){
+    // console.log('How did you get this wrong?')
+    alert('How did you get this wrong?')
+  }
+  else if ((myName !== 'YES') && (myName !== 'NO')){
+    // console.log('It\'s a Yes or No question. Anyway, moving on...')
+    alert('It\'s a Yes or No question. Anyway, moving on...')
+  }
+}
+
+question1();
 
 // let home = prompt('Yes or no: Am I from California?').toUpperCase();
 //   if (home === 'NO'){

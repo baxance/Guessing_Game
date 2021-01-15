@@ -2,13 +2,18 @@
 
 let knowledge = 0 // tally up correct answers
 
-
+function greeting() {
 let userName = prompt('What\'s your name?');
   // console.log('Hows it going, ' + userName + '. I have a few questions before we can continue.');
     alert('Hows it going, ' + userName + '. I have a few questions before we can continue.');{
       document.write('<h3>' + 'Farewell, ' + userName + '</h3>');
     }
+  }
 
+greeting();
+
+
+function question1(){
 let myName = prompt('Yes or no: Is my first name Barrett?').toUpperCase();
   if (myName === 'YES'){
     // console.log('That\'s correct. Are you a wizard?');
@@ -23,7 +28,12 @@ let myName = prompt('Yes or no: Is my first name Barrett?').toUpperCase();
     // console.log('It\'s a Yes or No question. Anyway, moving on...')
     alert('It\'s a Yes or No question. Anyway, moving on...')
   }
+}
 
+question1();
+
+
+function question2(){
 let home = prompt('Yes or no: Am I from California?').toUpperCase();
   if (home === 'NO'){
     // console.log('That\'s right, I\'m Kamaʻāina')
@@ -38,7 +48,12 @@ let home = prompt('Yes or no: Am I from California?').toUpperCase();
     // console.log('It\'s a Yes or No question. Anyway, moving on...')
     alert('It\'s a Yes or No question. Anyway, moving on...')
   }
+}
 
+question2();
+
+
+function question3(){
 let gojira = prompt('Yes or No: Biollante is the coolest Godzilla villain.').toUpperCase();
   if (gojira === 'YES'){
     // console.log('You have good taste. I bet a patrician of your caliber dislikes the American Godzillas too')
@@ -53,7 +68,12 @@ let gojira = prompt('Yes or No: Biollante is the coolest Godzilla villain.').toU
     // console.log('Are you deliberately not using a yes or no answer?')
     alert('Are you deliberately not using a yes or no answer?')
   }
+}
 
+question3();
+
+
+function question4(){
 let cat = prompt('Yes or No: Cats are better than Dogs').toUpperCase();
   if (cat === 'YES'){
     // console.log('/"How can one choose!/" say some. As easily as you did, says I')
@@ -68,7 +88,11 @@ let cat = prompt('Yes or No: Cats are better than Dogs').toUpperCase();
     // console.log('Indecision is acceptable in this case.')
     alert('Indecision is acceptable in this case.')
   }
+}
 
+question4();
+
+function question5(){
 let hoc = prompt('Yes or No: The Seattle hockey team should have been the Sockeyes').toUpperCase();
   if (hoc === 'YES'){
     // console.log('Glad we\'re in agreement. Kraken is a ridiculously stupid name.')
@@ -83,7 +107,11 @@ let hoc = prompt('Yes or No: The Seattle hockey team should have been the Sockey
     // console.log('I assume you don\'t like hockey. That\'s fine.')
     alert('I assume you don\'t like hockey. That\'s fine.')
   }
+}
 
+question5();
+
+function guessingGame(){
 let i = 0
 let cohort = 107
 for (i = 0; i < 4; i++){
@@ -100,7 +128,12 @@ let guess = prompt('In what year BC did Gaius Marius reform the Roman military i
       alert('Too high, try again?')   
     }    
   }
+}
 
+guessingGame();
+
+
+function guessMush(){
 var tryMush = 0
 let arrayOfMush = [
   'SHIITAKE',
@@ -122,8 +155,13 @@ for (let i = 0; i < 6; i++){
   }
 }
 
+
+
 alert('It took you ' + tryMush + ' tries. Some of my favorite mushrooms are:')
 
 alert(arrayOfMush)
+}
+
+guessMush();
 
 alert('You got ' + knowledge + ' right out of 7')

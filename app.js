@@ -111,22 +111,26 @@ let hoc = prompt('Yes or No: The Seattle hockey team should have been the Sockey
 
 question5();
 
-// let i = 0
-// let cohort = 107
-// for (i = 0; i < 4; i++){
-// let guess = prompt('In what year BC did Gaius Marius reform the Roman military into the Cohort system, replacing the Maniple?');
-//   if (guess == 107){
-//     alert('Correct! And though these measures saved Rome they would spell the demise of the Republic')
-//     knowledge++
-//     break;
-//   }
-//     if (guess < 107){
-//       alert('Too low, try again')
-//     }
-//     else if (guess > 107){
-//       alert('Too high, try again?')   
-//     }    
-//   }
+function guessingGame(){
+let i = 0
+let cohort = 107
+for (i = 0; i < 4; i++){
+let guess = prompt('In what year BC did Gaius Marius reform the Roman military into the Cohort system, replacing the Maniple?');
+  if (guess == 107){
+    alert('Correct! And though these measures saved Rome they would spell the demise of the Republic')
+    knowledge++
+    break;
+  }
+    if (guess < 107){
+      alert('Too low, try again')
+    }
+    else if (guess > 107){
+      alert('Too high, try again?')   
+    }    
+  }
+}
+
+guessingGame();
 
 // var tryMush = 0
 // let arrayOfMush = [
